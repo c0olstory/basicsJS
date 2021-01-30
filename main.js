@@ -98,7 +98,7 @@ const products = [
 ];
   
 const itemPhotos = products.filter(function (item) {
-   if(item.photos !== undefined && item.photos.length !== 0) {
+   if(item.photos !== undefined && item.photos.length > 0) {
       return item;
    }
 });
